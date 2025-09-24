@@ -1,0 +1,46 @@
+#numpy
+import numpy as np 
+#1d array
+# num = np.array([1,2,3,4,5])
+# print(num)
+# #2d array
+# num = np.array([[1,2,3],[4,5,6]]) 
+# print(num)
+
+#zero
+# print(np.zeros(5))
+# #ones
+# print(np.ones(5))
+# #arrange
+#print(np.arange(1,9,1))
+
+#linspace
+# print(np.linspace(0,1,5)) 
+#mathematical operator
+# arr = np.array([1,2,3,4,5])
+# print(arr+10)
+# print(arr*2)  
+# print(arr**2) 
+# print(arr/2)
+# print(arr//2) 
+# print(arr-2)     
+# print(arr%2)
+
+#aggregate function 
+#sum
+# arr = np.array([1,2,3,4,5])
+# print(np.sum(arr)) 
+# #mean
+# print(np.mean(arr)) 
+# #max
+# print(np.max(arr))
+# #std
+# print(np.std(arr)) 
+
+# multi-dimentional arrays(matrix operation)
+mat1 = np.array([[1,2,3],[4,5,6],[7,8,9]]) 
+mat2 = np.array([[9,8,7],[6,5,4],[3,2,1]]) 
+print(mat1+mat2)
+print(mat1-mat2)
+print(mat1*mat2)
+print(mat1**mat2) 
